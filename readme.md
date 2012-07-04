@@ -8,4 +8,4 @@ To start:
 node server.js
 ```
 
-The visit http://localhost:2000/.
+The visit [localhost:2000](http://localhost:2000/).
