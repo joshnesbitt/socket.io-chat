@@ -27,7 +27,6 @@ window.onload = function(){
   var app = new App;
 
   app.socket.on('clients:connected', function (data){
-    app.collectUsername();
     app.updateClientInfo(data);
   });
 
@@ -41,5 +40,7 @@ window.onload = function(){
       app.$input.val('');
     }
   });
+
+  app.collectUsername();
 
 };
